@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="app-wrapper">
+        <svg viewbox="0 0 100 100" id="mainSvg">
+            <rect
+                style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:normal;opacity:1;stop-color:#000000;stop-opacity:1"
+                id="border" width="90" height="90" x="5" y="5" />
+            <path id="grid"
+                style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.501961;font-variation-settings:normal;opacity:1;stop-color:#000000;stop-opacity:1"
+                d="
+                M 15,5 V 95 
+                M 25,5 V 95
+                M 35,5 V 95 
+                M 45,5 V 95
+                M 55,5 V 95 
+                M 65,5 V 95
+                M 75,5 V 95 
+                M 85,5 V 95
+                M 5,15 H 95
+                M 5,25 H 95
+                M 5,35 H 95
+                M 5,45 H 95
+                M 5,55 H 95
+                M 5,65 H 95
+                M 5,75 H 95
+                M 5,85 H 95
+                " />
+        </svg>
+        <div id="clue-holder">
+            <div id="row-holder">
+                <h2>Rows</h2>
+                <ul id="rowClues">
+                    <li><label for="row1clue">row1clue<input type="text" id="row1clue" /></label></li>
+                    <li><label for="row2clue">row2clue<input type="text" id="row2clue" /></label></li>
+                    <li><label for="row3clue">row3clue<input type="text" id="row3clue" /></label></li>
+                    <li><label for="row4clue">row4clue<input type="text" id="row4clue" /></label></li>
+                    <li><label for="row5clue">row5clue<input type="text" id="row5clue" /></label></li>
+                    <li><label for="row6clue">row6clue<input type="text" id="row6clue" /></label></li>
+                    <li><label for="row7clue">row7clue<input type="text" id="row7clue" /></label></li>
+                    <li><label for="row8clue">row8clue<input type="text" id="row8clue" /></label></li>
+                    <li><label for="row9clue">row9clue<input type="text" id="row9clue" /></label></li>
+                </ul>
+            </div>
+            <div id="column-holder">
+                <h2>Columns</h2>
+                <ul id="columnClues">
+                    <li><label for="column1clue">column1clue<input type="text" id="column1clue" /></label></li>
+                    <li><label for="column2clue">column2clue<input type="text" id="column2clue" /></label></li>
+                    <li><label for="column3clue">column3clue<input type="text" id="column3clue" /></label></li>
+                    <li><label for="column4clue">column4clue<input type="text" id="column4clue" /></label></li>
+                    <li><label for="column5clue">column5clue<input type="text" id="column5clue" /></label></li>
+                    <li><label for="column6clue">column6clue<input type="text" id="column6clue" /></label></li>
+                    <li><label for="column7clue">column7clue<input type="text" id="column7clue" /></label></li>
+                    <li><label for="column8clue">column8clue<input type="text" id="column8clue" /></label></li>
+                    <li><label for="column9clue">column9clue<input type="text" id="column9clue" /></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

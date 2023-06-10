@@ -1,0 +1,73 @@
+body {
+    font-size: 16pt;
+}
+svg {
+    width: 30rem;
+}
+text {
+    text-align: center;
+    font-size: 5pt;
+    font-family: 'ChunkFive';
+    fill: #000000;
+    stroke: none;
+    text-anchor: middle;
+    pointer-events: none;
+}
+.square {
+    fill: #ffcc0050;
+}
+.square:hover {
+    fill-opacity: .7;
+}
+.yep {
+    fill: #9c0;
+}
+.nope {
+    fill: #333;
+}
+.nope+text {
+    fill: #999;
+}
+h2 {
+    font-family: 'ChunkFive';
+    font-weight: 400;
+}
+ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Gothic';
+}
+li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: .3em 1em;
+    background: #fff;
+}
+li:hover {
+    background: #ddd;
+}
+li+li {
+    border-top: 1pt solid #ccc;
+}
+label {
+    display: block;;
+    color: #333;
+}
+input {
+    display: inline;
+    color: #668;
+    margin:0 0 0 1em;
+    padding: 0;
+}
+
+#app-wrapper {
+    display: grid;
+}
+
+#clue-holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
